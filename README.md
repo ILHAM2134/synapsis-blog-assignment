@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Synapsis Next.JS Blog Assignment
 
-## Getting Started
+#### this works belongs to Muhammad Ilham Akbar in purpose for Synapsis.id Frontend Developer Technical test
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+this is web-based blog app that use https://gorest.co.in/ API data that can view blog list and view blog detail, and able to CRUD user
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use This Blog
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- theres 3 page on this app, such as home page (/), blog page (/blog), and user page (/user), also contain github source code url on right side navbar
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- blog page (/blog) contain lists of blog, if one blog clicked it will Link to (/blog/:blogID) and serve with blog full content and comments
 
-## Learn More
+- user page (/user) contain list of user, visitor can do CRUD on user's data, if one user card component clicked, it will redirect to (/user/:userID) and serve with user detail
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Run in Vercel Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- visit this link : https://next-js-blog-synapsis.vercel.app/
 
-## Deploy on Vercel
+### Run in Local
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- clone repo with this command on yout terminal / git bash
+  ```
+  git clone https://github.com/ILHAM2134/NextJS-Blog-Synapsis.git
+  ```
+- change to 'NextJS-Blog-Synapsis' directory with command
+  ```
+  cd NextJS-Blog-Synapsis
+  ```
+- install dependencies with command
+  ```
+  npm install
+  ```
+  or
+  ```
+  pnpm install
+  ```
+  depends on your package manager
+  
+- run the app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - development environment
+    ```
+    npm run dev
+    ```
+  - production environment
+
+    ```
+    npm run build
+
+    npm run start
+    ```
