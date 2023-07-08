@@ -128,9 +128,9 @@ const AddUser = ({
             name="name"
             component="span"
           />
-          <label>Name :</label>
+          <label htmlFor="inputName">Name :</label>
           <Field
-            id="inputProduct"
+            id="inputName"
             name="name"
             placeholder={editValue ? editValue.name : "input your name..."}
             autoComplete="on"
@@ -142,9 +142,9 @@ const AddUser = ({
             name="email"
             component="span"
           />
-          <label>Email : </label>
+          <label htmlFor="inputEmail">Email : </label>
           <Field
-            id="inputDescription"
+            id="inputEmail"
             name="email"
             placeholder={editValue ? editValue.email : "input your email..."}
             autoComplete="on"
@@ -156,9 +156,9 @@ const AddUser = ({
             name="gender"
             component="span"
           />
-          <label>Gender : </label>
+          <label htmlFor="inputGender">Gender : </label>
           <Field
-            id="inputProduct"
+            id="inputGender"
             name="gender"
             placeholder={editValue ? editValue.gender : "input your gender.."}
             autoComplete="on"
@@ -170,9 +170,9 @@ const AddUser = ({
             name="status"
             component="span"
           />
-          <label>Status : </label>
+          <label htmlFor="inputStatus">Status : </label>
           <Field
-            id="inputPlace"
+            id="inputStatus"
             name="status"
             placeholder={editValue ? editValue.status : "input your status.."}
             autoComplete="on"
