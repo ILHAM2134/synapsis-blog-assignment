@@ -12,6 +12,13 @@ const Navbar = () => {
       <Link className="mx-7 sm:mx-11" href="/user">
         <h6 className="font-medium hover:font-black">User</h6>
       </Link>
+      <a
+      className='ml-auto'
+        href="https://github.com/ILHAM2134/synapsis-blog-assignment.git"
+        target="_blank"
+      >
+        click here to view github source code
+      </a>
     </div>
   );
 };
