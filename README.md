@@ -1,6 +1,6 @@
 # Synapsis Next.JS Blog Assignment
 
-#### this works belongs to Muhammad Ilham Akbar in purpose for Synapsis.id Frontend Developer Technical test
+##### this works belongs to Muhammad Ilham Akbar in purpose for Synapsis.id Frontend Developer Technical test
 
 ## Overview
 
@@ -18,21 +18,25 @@ this is web-based blog app that use https://gorest.co.in/ API data that can view
 
 ### Run in Vercel Deployment
 
-- visit this link : https://next-js-blog-synapsis.vercel.app/
+- visit this link : https://synapsis-blog-assignment.vercel.app/
 
 ### Run in Local
 
 - clone repo with this command on yout terminal / git bash
   ```
-  git clone https://github.com/ILHAM2134/NextJS-Blog-Synapsis.git
+  git clone https://github.com/ILHAM2134/synapsis-blog-assignment.git
   ```
-- change to 'NextJS-Blog-Synapsis' directory with command
+- change to 'synapsis-blog-assignment' directory with command
   ```
-  cd NextJS-Blog-Synapsis
+  cd synapsis-blog-assignment
   ```
 - install dependencies with command
   ```
   npm install
+  ```
+  or
+  ```
+  yarn install
   ```
   or
   ```
