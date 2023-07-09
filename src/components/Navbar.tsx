@@ -13,7 +13,7 @@ const Navbar = () => {
         <h6 className="font-medium hover:font-black">User</h6>
       </Link>
       <a
-      className='ml-auto'
+        className="ml-auto hidden sm:block"
         href="https://github.com/ILHAM2134/synapsis-blog-assignment.git"
         target="_blank"
       >
