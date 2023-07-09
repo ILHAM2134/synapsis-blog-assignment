@@ -27,7 +27,7 @@ const UserCard = ({
   const handleDelete = async (user: any, e: any) => {
     e.stopPropagation();
     const res = await window.fetch(
-      `https://gorest.co.in/public/v1/users/${user.id}`,
+      `https://gorest.co.in/public/v2/users/${user.id}`,
       {
         method: "DELETE",
         credentials: "same-origin",
@@ -54,7 +54,10 @@ const UserCard = ({
   };
 
   return (
-    <div className="my-10 bg-gray-100 hover:bg-gray-200 p-5 rounded-xl w-96 mx-auto md:mx-4 hover:cursor-pointer hover:font-medium" key={user.id}>
+    <div
+      className="my-10 bg-gray-100 hover:bg-gray-200 p-5 rounded-xl w-96 mx-auto md:mx-4 hover:cursor-pointer hover:font-medium"
+      key={user.id}
+    >
       <h6 className="my-3">{user.name}</h6>
       <p className="my-3">{user.email}</p>
       <div className="flex justify-center my-3 flex-end">

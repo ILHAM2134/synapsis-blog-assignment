@@ -43,7 +43,7 @@ const AddUser = ({
       };
 
       const res = await window.fetch(
-        `https://gorest.co.in/public/v1/users/${editValue.id}`,
+        `https://gorest.co.in/public/v2/users/${editValue.id}`,
         {
           method: "PATCH",
           credentials: "same-origin",
@@ -70,7 +70,7 @@ const AddUser = ({
       }
       setPagData([...dummy]);
     } else {
-      const res = await window.fetch("https://gorest.co.in/public/v1/users", {
+      const res = await window.fetch("https://gorest.co.in/public/v2/users", {
         method: "POST",
         credentials: "same-origin",
         mode: "cors",
